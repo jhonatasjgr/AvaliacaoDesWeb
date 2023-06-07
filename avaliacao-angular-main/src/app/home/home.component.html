@@ -1,0 +1,30 @@
+<div>
+    <div>
+        <h2>Saldo: {{saldoAtual}}</h2>
+    </div>
+    <section></section>
+</div>
+<input type="number" id="deposito" [(ngModel)]="deposito" min="0">
+<button mat-stroked-button color="accent" (click)="depositar()">
+    Depositar
+</button>
+<br>
+<input type="number" id="deposito" [(ngModel)]="saque" min="0">
+<button mat-stroked-button color="accent" (click)="sacar()" style="margin-bottom: 5px;">
+    Sacar
+</button>
+<br>
+<mat-card-actions>
+    
+    <a routerLink="/dashboard" style="text-decoration: none;">
+     <button mat-raised-button color="primary" type="submit" style="margin-bottom: 5px;">
+      DASHBOARD
+    </button>
+    </a>
+    <br >
+    <a routerLink="/formulario" style="text-decoration: none;">
+     <button mat-raised-button color="primary" type="submit">
+      FORMULARIO
+    </button>
+    </a>
+</mat-card-actions>
