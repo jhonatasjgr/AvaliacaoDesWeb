@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+header{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+div{
+    margin: auto;
+    background-color: white;
+    color: black;
+    width: 25%;
+    height: 70%;
+    border-radius: 30px;
+}
+img{
+    width: 240px;
+    height: 180px;
+}
+span{
+    font-weight: bold
+}
